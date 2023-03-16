@@ -1,0 +1,220 @@
+body{
+    overflow-x: hidden;
+}
+
+.back{
+    
+    background-image: radial-gradient(rgba(0, 0, 0, 0.703), rgba(0,0,0,0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/79fe83d4-7ef6-4181-9439-46db72599559/bd05b4ed-7e37-4be9-85c8-078f067bd150/IN-en-20221017-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    /* background-position: inherit; */
+}
+
+.lang{
+    border: 1px solid white;
+    margin-left: 950px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    background-color: black;
+}
+
+.signin{
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.lang, .signin{
+    margin-top: 30px;
+}
+
+.logo{
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+.title1{
+    color: white;
+    font-size: 61px;
+    font-weight: bold;
+    margin-top: 130px;
+}
+
+.title2{
+    color: white;
+    font-size: 27px;
+}
+
+.title3{
+    color: white;
+    font-size: 20px;
+}
+
+.mail{
+    height: 70px;
+    width: 550px;
+    margin-left: 350px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.get{
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid red;
+    background-color: red;
+    font-size: 25px;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.space{
+    height: 200px;
+}
+
+.line{
+    height: 8px;
+    background-color: rgb(53, 52, 52);
+}
+
+.d2{
+    background-color: black;
+}
+
+.p1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 11px;
+}
+
+.p2{
+    font-size: 29px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.space1{
+    height: 150px;
+}
+.p3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 110px;
+}
+
+.p4{
+    font-size: 29px;
+    
+}
+
+.faq{
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+.faqs{
+    font-size: 30px;
+    
+}
+
+.d3{
+    margin-top: 40px;
+}
+
+.bgcol{
+    background-color: rgb(53, 52, 52);
+}
+
+.tcolor{
+    color:  rgb(111, 109, 109);
+}
+
+.tfooter{
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.tsize{
+    font-size: 15px;
+}
+
+.uniq a:hover{
+    text-decoration: underline;
+    color: rgb(111, 109, 109);
+}
+
+.uniq a{
+    color:  rgb(111, 109, 109);
+}
+
+.lang2{
+    border: 1px solid rgb(111, 109, 109);
+    margin-left: 377px;
+    margin-top: 40px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    color: rgb(111, 109, 109);
+    background-color: black;
+}
+
+.foot{
+    color: rgb(111, 109, 109);
+    margin-left: 377px;
+    margin-top: 20px;
+}
+
+@media (max-width:769px){
+    .back{
+        width: 100%;
+    }
+
+    .row .title1{
+        font-size: 4rem;
+    }
+
+    .row .title2, .title3{
+        font-size: 2re;
+    }
+
+    .logo img{
+        height: 15%;
+        width: 15%;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .signin, .lang{
+       margin: 0 60rem ;
+       padding: 0;
+    }
+
+    .mail{
+
+        height: 5rem;
+        width: 60rem;
+        margin: 0 30px 0 20px;
+    }
+
+    .get{
+
+        height: 5rem;
+        width: 20rem;
+        }
+   
+}
